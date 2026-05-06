@@ -360,18 +360,19 @@ input:checked + .slider:before {
 
 /* Price Section */
 .price-section {
+  height: 120px;
   margin-bottom: 1.5rem;
-  padding: 2rem 0 1.5rem;
   border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .price-display {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   gap: 0.25rem;
-  margin-bottom: 0.5rem;
-  min-height: 70px;
 }
 
 .currency {
