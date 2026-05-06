@@ -402,7 +402,6 @@ input:checked + .slider:before {
   color: var(--text-primary);
   letter-spacing: -0.02em;
   line-height: 1.2;
-  margin-top: 11px;
 }
 
 .period {
