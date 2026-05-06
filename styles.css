@@ -339,7 +339,7 @@ input:checked + .slider:before {
 
 .card-header {
   margin-bottom: 2rem;
-  min-height: 140px;
+  min-height: 80px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
