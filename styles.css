@@ -370,7 +370,7 @@ input:checked + .slider:before {
   justify-content: center;
   gap: 0.25rem;
   margin-bottom: 0.5rem;
-  min-height: 100px;
+  min-height: 150px;
 }
 
 .currency {
