@@ -358,9 +358,9 @@ input:checked + .slider:before {
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--border-color);
-  min-height: 80px;
+  min-height: 120px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .price-display {
@@ -368,6 +368,7 @@ input:checked + .slider:before {
   align-items: baseline;
   gap: 0.25rem;
   margin-bottom: 0.5rem;
+  min-height: 50px;
 }
 
 .currency {
