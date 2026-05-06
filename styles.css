@@ -345,7 +345,7 @@ input:checked + .slider:before {
 
 .card-header {
   margin-bottom: 2rem;
-  min-height: auto;
+  min-height: 95px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -370,14 +370,13 @@ input:checked + .slider:before {
   margin-bottom: 1.5rem;
   border-bottom: 1px solid var(--border-color);
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  padding-top: 35px;
 }
 
 .price-display {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   gap: 0.25rem;
 }
