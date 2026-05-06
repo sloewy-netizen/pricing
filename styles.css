@@ -141,6 +141,10 @@ body {
   cursor: pointer;
   font-size: 0.95rem;
   transition: all 0.3s;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-primary:hover {
@@ -166,6 +170,10 @@ body {
   cursor: pointer;
   transition: all 0.3s;
   margin-bottom: 2rem;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-outline:hover {
