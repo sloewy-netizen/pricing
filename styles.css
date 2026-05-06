@@ -136,15 +136,11 @@ body {
   color: white;
   border: none;
   border-radius: 8px;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 1.5rem;
   font-weight: 600;
   cursor: pointer;
   font-size: 0.95rem;
   transition: all 0.3s;
-  min-height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 2rem;
 }
 
@@ -171,10 +167,6 @@ body {
   cursor: pointer;
   transition: all 0.3s;
   margin-bottom: 2rem;
-  min-height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .btn-outline:hover {
