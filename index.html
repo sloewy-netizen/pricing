@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marq Pricing | Scalable Brand Enablement</title>
+    <meta name="description"
+        content="View the new Marq pricing. A flexible Double Ladder system designed for teams of all sizes.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-left">
+                <a href="#" class="logo">
+                    <img src="Gemini_Generated_Image_pnztxjpnztxjpnzt.png" alt="Marq" class="logo-image">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="#platform">Platform</a></li>
+                    <li><a href="#industries">Industries</a></li>
+                    <li><a href="#templates">Templates</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#pricing" class="active">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="navbar-right">
+                <button class="btn-text">Log in</button>
+                <button class="btn-secondary">Sign up free</button>
+                <button class="btn-primary">Get a demo</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="pricing-section">
+        <div class="pricing-header">
+            <span class="pricing-badge">PRICING</span>
+            <h1>Plans for every business and team.</h1>
+            <p>Choose between manual brand creation or AI-powered workflows. Scale your team, scale your output. All plans include a 14-day free trial with credit card required upfront.</p>
+        </div>
+
+        <!-- Billing Toggle -->
+        <div class="billing-toggle">
+            <span class="toggle-label active" id="billing-monthly">MONTHLY</span>
+            <label class="switch">
+                <input type="checkbox" id="billing-toggle">
+                <span class="slider"></span>
+            </label>
+            <span class="toggle-label" id="billing-annual">ANNUALLY <span class="discount-badge">Save ~17%</span></span>
+        </div>
+
+        <!-- Pricing Grid -->
+        <div class="pricing-grid">
+            <!-- Starter Plan -->
+            <div class="pricing-card starter">
+                <div class="card-header">
+                    <h2 class="tier-name">Starter</h2>
+                    <p class="tier-desc">For individuals creating manual brand content.</p>
+                    <div class="seat-info">1 seat</div>
+                </div>
+
+                <div class="price-section">
+                    <div class="price-display">
+                        <span class="currency">$</span>
+                        <span class="price" id="price-starter">15</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <p class="billing-note">Billed per user</p>
+                </div>
+
+                <div class="plan-type-badge manual">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                        <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                    </svg>
+                    <span>Manual creation only</span>
+                </div>
+
+                <button class="btn-outline">Get Started</button>
+
+                <div class="features-section">
+                    <p class="features-title">What's included:</p>
+                    <ul class="features-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Core templating features</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Personal projects</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Standard support</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>1 Data Integration</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Slack integration</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Business Plan -->
+            <div class="pricing-card popular">
+                <div class="popular-badge">Best Value</div>
+                <div class="card-header">
+                    <h2 class="tier-name">Business</h2>
+                    <p class="tier-desc">For teams scaling with AI-powered workflows.</p>
+                    <div class="seat-info">1-100 seats</div>
+                </div>
+
+                <div class="price-section">
+                    <div class="price-display">
+                        <span class="currency">$</span>
+                        <span class="price" id="price-business">20</span>
+                        <span class="period">/month per seat</span>
+                    </div>
+                    <p class="billing-note">Billed per seat</p>
+                </div>
+
+                <div class="credit-badge">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                    </svg>
+                    <span>100 AI Brand Creations/year</span>
+                </div>
+
+                <p class="upgrade-text">Upgrade to 1,000 AI Brand Creations for $75 per 100-unit step</p>
+
+                <button class="btn-primary">Start Free Trial</button>
+
+                <div class="features-section">
+                    <p class="features-title">Everything in Starter, plus:</p>
+                    <ul class="features-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>AI-powered brand creation features</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>AI Writing Assistant</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Brand Guardian (AI compliance)</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Team collaboration (up to 100 seats)</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Advanced brand controls</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Scale Plan -->
+            <div class="pricing-card">
+                <div class="card-header">
+                    <h2 class="tier-name">Scale</h2>
+                    <p class="tier-desc">For growing teams with advanced AI capabilities.</p>
+                    <div class="seat-info">1-100 seats</div>
+                </div>
+
+                <div class="price-section">
+                    <div class="price-display">
+                        <span class="currency">$</span>
+                        <span class="price" id="price-scale">40</span>
+                        <span class="period">/month per seat</span>
+                    </div>
+                    <p class="billing-note">Billed per seat</p>
+                </div>
+
+                <div class="credit-badge">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                    </svg>
+                    <span>200 AI Brand Creations/year</span>
+                </div>
+
+                <p class="upgrade-text">Upgrade to 2,000 AI Brand Creations for $75 per 100-unit step</p>
+
+                <button class="btn-outline">Contact Sales</button>
+
+                <div class="features-section">
+                    <p class="features-title">Everything in Business, plus:</p>
+                    <ul class="features-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Advanced analytics & reporting</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Command Center (AI control hub)</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Multi-brand management</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Customer Success Manager</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>API & webhook access</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Enterprise Plan -->
+            <div class="pricing-card">
+                <div class="card-header">
+                    <h2 class="tier-name">Enterprise</h2>
+                    <p class="tier-desc">For organizations with full platform needs.</p>
+                    <div class="seat-info">Unlimited seats</div>
+                </div>
+
+                <div class="price-section">
+                    <div class="price-display">
+                        <span class="currency">Custom</span>
+                        <span class="price">Pricing</span>
+                    </div>
+                    <p class="billing-note">Starting at $30/seat/year + volume discounts</p>
+                </div>
+
+                <div class="credit-badge">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                    </svg>
+                    <span>1,000+ AI Brand Creations/year</span>
+                </div>
+
+                <p class="upgrade-text">Unlimited AI Brand Creations available</p>
+
+                <button class="btn-outline">Book a demo</button>
+
+                <div class="features-section">
+                    <p class="features-title">Everything in Scale, plus:</p>
+                    <ul class="features-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Unlimited team seats</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Enterprise governance & SSO</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Custom IT workflows</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Dedicated implementation team</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Negotiated legal terms</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Plan Details Section -->
+        <div class="plan-details-section">
+            <h2>How AI Brand Creations Work</h2>
+            <div class="detail-grid">
+                <div class="detail-card">
+                    <h3>What's an AI Brand Creation?</h3>
+                    <p>Any document you create that uses AI-powered features (AI Writing Assistant, Brand Guardian, Brand OS, Command Center, or AI Marqet Apps) and then distribute (download, print, export, or publish). Upgradeable allocations let you scale with your needs.</p>
+                </div>
+                <div class="detail-card">
+                    <h3>How Allocation Works</h3>
+                    <p>Your AI Brand Creation allocation is issued upfront at the start of your billing period. Unused creations expire at the end of the period—they don't roll over. On Business and Scale, you can upgrade your allocation mid-cycle in 100-unit increments ($75 each) to handle additional usage.</p>
+                </div>
+                <div class="detail-card">
+                    <h3>Usage Enforcement</h3>
+                    <p><strong>80%:</strong> Early warning via in-product notification. <strong>100%:</strong> Soft cap with alerts, but features continue. <strong>125%:</strong> Hard cap—AI features temporarily disabled until you upgrade.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Pricing Options -->
+        <div class="additional-pricing-section">
+            <h2>Enterprise Options</h2>
+            <div class="options-grid">
+                <div class="option-card">
+                    <h3>Seat-Based Volume Discounts</h3>
+                    <p>10-74 seats at standard rate. 75+ seats receive tiered discounts up to 50% off for 1,000+ seats.</p>
+                </div>
+                <div class="option-card">
+                    <h3>Unlimited Seat Platform Fee</h3>
+                    <p>$40K-$350K annually depending on your company size. One fee covers unlimited team members and platform features.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Credit Ladder Section -->
+        <div class="credit-ladder-section">
+            <div class="credit-ladder-header">
+                <h2>Need More AI Brand Creations?</h2>
+                <p>Add more AI Brand Creations anytime with our flexible ladder. Available on Business, Scale, and Enterprise plans.</p>
+            </div>
+
+            <div class="credit-ladder-grid">
+                <div class="credit-tier">
+                    <div class="credit-amount">+100 <span>Creations</span></div>
+                    <div class="credit-price">$75</div>
+                </div>
+                <div class="credit-tier">
+                    <div class="credit-amount">+500 <span>Creations</span></div>
+                    <div class="credit-price">$375</div>
+                </div>
+                <div class="credit-tier">
+                    <div class="credit-amount">+1,000 <span>Creations</span></div>
+                    <div class="credit-price">$750</div>
+                </div>
+                <div class="credit-tier">
+                    <div class="credit-amount">+2,500 <span>Creations</span></div>
+                    <div class="credit-price">$1,875</div>
+                </div>
+                <div class="credit-tier enterprise-credits">
+                    <div class="credit-amount">>5,000 <span>Creations</span></div>
+                    <div class="credit-price">Custom</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Trial Info -->
+        <div class="trial-section">
+            <div class="trial-content">
+                <h2>Start Your 14-Day Free Trial</h2>
+                <p>Try any plan with full feature access for 14 days. Credit card required to begin, but you can cancel anytime.</p>
+                <button class="btn-primary btn-large">Start Free Trial</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
