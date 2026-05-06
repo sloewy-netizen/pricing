@@ -370,13 +370,14 @@ input:checked + .slider:before {
   margin-bottom: 1.5rem;
   border-bottom: 1px solid var(--border-color);
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
+  padding-bottom: 20px;
 }
 
 .price-display {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   gap: 0.25rem;
 }
