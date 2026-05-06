@@ -356,11 +356,8 @@ input:checked + .slider:before {
 /* Price Section */
 .price-section {
   margin-bottom: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding: 2rem 0 1.5rem;
   border-bottom: 1px solid var(--border-color);
-  min-height: 120px;
-  display: flex;
-  align-items: center;
 }
 
 .price-display {
@@ -368,7 +365,6 @@ input:checked + .slider:before {
   align-items: baseline;
   gap: 0.25rem;
   margin-bottom: 0.5rem;
-  min-height: 50px;
 }
 
 .currency {
@@ -397,10 +393,6 @@ input:checked + .slider:before {
   border-radius: 8px;
   margin-bottom: 2rem;
   text-align: center;
-  min-height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .highlight-label {
