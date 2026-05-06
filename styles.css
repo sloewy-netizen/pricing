@@ -372,8 +372,6 @@ input:checked + .slider:before {
   gap: 0.25rem;
   margin-bottom: 0.5rem;
   min-height: 70px;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .currency {
