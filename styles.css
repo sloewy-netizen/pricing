@@ -136,12 +136,11 @@ body {
   color: white;
   border: none;
   border-radius: 8px;
-  padding: 1rem 1.5rem;
+  padding: 0.625rem 1.25rem;
   font-weight: 600;
   cursor: pointer;
   font-size: 0.95rem;
   transition: all 0.3s;
-  margin-bottom: 2rem;
 }
 
 .btn-primary:hover {
@@ -156,22 +155,29 @@ body {
 }
 
 .btn-outline {
-  width: 100%;
-  padding: 1rem;
+  padding: 0.625rem 1.25rem;
   border: 2px solid var(--border-color);
   background: var(--bg-primary);
   color: var(--text-primary);
   border-radius: 8px;
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s;
-  margin-bottom: 2rem;
 }
 
 .btn-outline:hover {
   border-color: var(--accent-pink);
   background: var(--accent-pink-light);
+}
+
+/* Pricing-card specific button overrides */
+.pricing-card .btn-primary,
+.pricing-card .btn-outline {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
 }
 
 /* Pricing Section */
