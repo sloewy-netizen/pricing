@@ -367,6 +367,7 @@ input:checked + .slider:before {
 .price-display {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.25rem;
   margin-bottom: 0.5rem;
   min-height: 100px;
