@@ -148,6 +148,31 @@ body {
   box-shadow: var(--shadow-md);
 }
 
+.btn-large {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  width: auto;
+}
+
+.btn-outline {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid var(--border-color);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 2rem;
+}
+
+.btn-outline:hover {
+  border-color: var(--accent-pink);
+  background: var(--accent-pink-light);
+}
+
 /* Pricing Section */
 .pricing-section {
   padding: 5rem 2rem;
@@ -325,16 +350,7 @@ input:checked + .slider:before {
 .tier-desc {
   color: var(--text-secondary);
   font-size: 0.95rem;
-  margin-bottom: 1rem;
-}
-
-.seat-info {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  padding: 0.75rem 0;
-  padding-top: 1rem;
-  border-top: 1px solid var(--border-color);
+  margin-bottom: 0;
 }
 
 /* Price Section */
@@ -370,70 +386,24 @@ input:checked + .slider:before {
   font-weight: 500;
 }
 
-.billing-note {
-  color: var(--text-secondary);
-  font-size: 0.85rem;
-  margin: 0;
-}
-
-/* Credit Badge */
-.credit-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.75rem;
+/* Feature Highlight */
+.feature-highlight {
   background: rgba(232, 75, 138, 0.08);
   padding: 0.75rem 1rem;
   border-radius: 8px;
   margin-bottom: 2rem;
-  font-size: 0.85rem;
-  font-weight: 600;
+  text-align: center;
+}
+
+.highlight-label {
+  font-weight: 700;
   color: var(--accent-pink);
-}
-
-.credit-badge svg {
-  width: 16px;
-  height: 16px;
-  stroke: var(--accent-pink);
-}
-
-/* CTA Buttons */
-.btn-outline {
-  width: 100%;
-  padding: 1rem;
-  border: 2px solid var(--border-color);
-  background: var(--bg-primary);
-  color: var(--text-primary);
-  border-radius: 8px;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s;
-  margin-bottom: 2rem;
-}
-
-.btn-outline:hover {
-  border-color: var(--accent-pink);
-  background: var(--accent-pink-light);
-}
-
-.pricing-card .btn-primary {
-  width: 100%;
-  padding: 1rem;
-  margin-bottom: 2rem;
+  font-size: 0.9rem;
 }
 
 /* Features Section */
 .features-section {
   flex-grow: 1;
-}
-
-.features-title {
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--text-primary);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 1rem;
 }
 
 .features-list {
@@ -462,15 +432,15 @@ input:checked + .slider:before {
   margin-top: 0.1rem;
 }
 
-/* Plan Details Section */
-.plan-details-section {
+/* Comparison Section */
+.comparison-section {
   margin: 5rem 0;
-  padding: 4rem 2rem;
+  padding: 3rem 2rem;
   background: var(--bg-secondary);
   border-radius: 12px;
 }
 
-.plan-details-section h2 {
+.comparison-section h2 {
   font-size: 2rem;
   font-weight: 800;
   color: var(--text-primary);
@@ -479,45 +449,99 @@ input:checked + .slider:before {
   letter-spacing: -0.02em;
 }
 
-.detail-grid {
+.comparison-table {
+  overflow-x: auto;
+}
+
+.comparison-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--bg-primary);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.comparison-table th {
+  background: var(--bg-secondary);
+  padding: 1.25rem;
+  font-weight: 700;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 0.95rem;
+}
+
+.comparison-table th:first-child {
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.comparison-table td {
+  padding: 1.25rem;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 0.95rem;
+}
+
+.comparison-table td.label {
+  font-weight: 600;
+  color: var(--text-primary);
+  background: var(--bg-secondary);
+}
+
+.comparison-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* FAQ Section */
+.faq-section {
+  margin: 5rem 0;
+}
+
+.faq-section h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  text-align: center;
+  margin-bottom: 3rem;
+  letter-spacing: -0.02em;
+}
+
+.faq-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
-.detail-card {
-  background: var(--bg-primary);
+.faq-item {
+  background: var(--bg-secondary);
   padding: 2rem;
   border-radius: 8px;
   border: 1px solid var(--border-color);
 }
 
-.detail-card h3 {
+.faq-item h3 {
   font-size: 1.125rem;
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 1rem;
 }
 
-.detail-card p {
+.faq-item p {
   color: var(--text-secondary);
   font-size: 0.95rem;
   line-height: 1.6;
+  margin: 0;
 }
 
-/* Credit Ladder Section */
-.credit-ladder-section {
-  margin-top: 5rem;
-  padding-top: 5rem;
-  border-top: 1px solid var(--border-color);
-}
-
-.credit-ladder-header {
+/* CTA Section */
+.cta-section {
   text-align: center;
-  margin-bottom: 3rem;
+  margin: 5rem 0;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, rgba(232, 75, 138, 0.05) 0%, rgba(13, 187, 173, 0.05) 100%);
+  border-radius: 12px;
 }
 
-.credit-ladder-header h2 {
+.cta-section h2 {
   font-size: 2.5rem;
   font-weight: 800;
   color: var(--text-primary);
@@ -525,70 +549,16 @@ input:checked + .slider:before {
   letter-spacing: -0.02em;
 }
 
-.credit-ladder-header p {
+.cta-section > p:first-of-type {
   color: var(--text-secondary);
   font-size: 1.125rem;
-  max-width: 700px;
-  margin: 0 auto;
+  margin-bottom: 2rem;
 }
 
-.credit-ladder-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5rem;
-}
-
-.credit-tier {
-  background: var(--bg-primary);
-  border: 1px solid var(--border-color);
-  border-radius: 12px;
-  padding: 2rem;
-  text-align: center;
-  min-width: 220px;
-  box-shadow: var(--shadow-sm);
-  transition: all 0.3s;
-}
-
-.credit-tier:hover {
-  transform: translateY(-4px);
-  border-color: var(--accent-pink);
-  box-shadow: var(--shadow-md);
-}
-
-.credit-amount {
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--text-primary);
-  margin-bottom: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.credit-amount span {
-  font-size: 0.875rem;
-  font-weight: 600;
+.cta-note {
   color: var(--text-secondary);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.credit-price {
-  font-size: 1.375rem;
-  font-weight: 700;
-  color: var(--accent-pink);
-}
-
-.credit-price span {
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--text-secondary);
-}
-
-.enterprise-credits {
-  background: rgba(232, 75, 138, 0.05);
-  border-color: rgba(232, 75, 138, 0.2);
+  font-size: 0.85rem;
+  margin-top: 1.5rem;
 }
 
 /* Responsive Design */
@@ -597,8 +567,8 @@ input:checked + .slider:before {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .detail-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .faq-grid {
+    grid-template-columns: 1fr;
   }
 
   .navbar-left {
@@ -640,33 +610,21 @@ input:checked + .slider:before {
     grid-template-columns: 1fr;
   }
 
-  .detail-grid {
-    grid-template-columns: 1fr;
-  }
-
   .pricing-header h1 {
     font-size: 2.5rem;
-  }
-
-  .pricing-header p {
-    font-size: 1rem;
   }
 
   .pricing-section {
     padding: 3rem 1rem;
   }
 
-  .plan-details-section {
+  .comparison-section,
+  .cta-section {
     padding: 2rem 1rem;
   }
 
-  .credit-ladder-grid {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .credit-tier {
-    min-width: auto;
+  .faq-item {
+    padding: 1.5rem;
   }
 }
 
@@ -685,5 +643,19 @@ input:checked + .slider:before {
 
   .nav-menu {
     display: none;
+  }
+
+  .faq-grid {
+    gap: 1rem;
+  }
+
+  .faq-item {
+    padding: 1rem;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    padding: 0.75rem;
+    font-size: 0.85rem;
   }
 }
